@@ -35,7 +35,7 @@ function CartModelBox() {
         <div className="calculation fixed bottom-0 p-3 justify-between w-full bg-white">
           <h2>TotalPrice : $ {total}</h2>
           <div className="final flex  gap-3 w-full">
-            <button onClick={()=> handleDialUSSD()} className='bg-black text-white rounded px-2 py-2 '>
+            <button onClick={()=> handleDialUSSD(total)} className='bg-black text-white rounded px-2 py-2 '>
               Pay$$$
             </button>
             <button onClick={()=> reset()} className='bg-black text-white rounded px-2 py-2 '>

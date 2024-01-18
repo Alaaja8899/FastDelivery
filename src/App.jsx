@@ -44,7 +44,7 @@ export default function App() {
     } ,[])
   return (
     <div className="App">
-      <button onClick={fullScreen} className=" absolute">Toggle Full Screen</button>
+      {/* <button onClick={fullScreen} className=" absolute">Toggle Full Screen</button> */}
       <CartModelBox />
       <Header />
       <Search />
