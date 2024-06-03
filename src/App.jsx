@@ -4,6 +4,7 @@ import Filter from "./components/Filter";
 import Header from "./components/Header";
 import Products from "./components/Products";
 import Search from "./components/Search";
+import Infront from "./components/Infront";
 
 export default function App() {
   const [isFullScreen, setIsFullScreen] = useState(false);
@@ -47,6 +48,7 @@ export default function App() {
       {/* <button onClick={fullScreen} className=" absolute">Toggle Full Screen</button> */}
       <CartModelBox />
       <Header />
+      <Infront/>
       <Search />
       <Filter />
       <Products />
